@@ -1,0 +1,29 @@
+[2.399s] Invoking command in '/home/enesb/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/enesb/ros2_ws/build/my_py_pkg/prefix_override:/home/enesb/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/enesb/ros2_ws/build/my_py_pkg/build
+[3.464s] running develop
+[4.134s] Removing /home/enesb/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[4.215s] Invoked command in '/home/enesb/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/enesb/ros2_ws/build/my_py_pkg/prefix_override:/home/enesb/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/enesb/ros2_ws/build/my_py_pkg/build
+[4.221s] Invoking command in '/home/enesb/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/enesb/ros2_ws/build/my_py_pkg/prefix_override:/home/enesb/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/enesb/ros2_ws/build/my_py_pkg/build install --record /home/enesb/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[5.209s] running egg_info
+[5.211s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[5.212s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[5.213s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[5.213s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[5.214s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[5.221s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[5.224s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[5.225s] running build
+[5.225s] running build_py
+[5.225s] running install
+[5.227s] running install_lib
+[5.229s] creating /home/enesb/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[5.230s] copying /home/enesb/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/enesb/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[5.230s] copying /home/enesb/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/enesb/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[5.231s] byte-compiling /home/enesb/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc
+[5.233s] byte-compiling /home/enesb/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[5.233s] running install_data
+[5.235s] running install_egg_info
+[5.241s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/enesb/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[5.243s] running install_scripts
+[5.313s] Installing py_node script to /home/enesb/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[5.314s] writing list of installed files to '/home/enesb/ros2_ws/build/my_py_pkg/install.log'
+[5.395s] Invoked command in '/home/enesb/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/enesb/ros2_ws/build/my_py_pkg/prefix_override:/home/enesb/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/enesb/ros2_ws/build/my_py_pkg/build install --record /home/enesb/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
