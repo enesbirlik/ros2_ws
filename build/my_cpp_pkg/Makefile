@@ -198,19 +198,6 @@ my_cpp_pkg_uninstall/fast:
 .PHONY : my_cpp_pkg_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named cpp_node
-
-# Build rule for target.
-cpp_node: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cpp_node
-.PHONY : cpp_node
-
-# fast build rule for target.
-cpp_node/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/build
-.PHONY : cpp_node/fast
-
-#=============================================================================
 # Target rules for targets named robot_news_station
 
 # Build rule for target.
@@ -223,29 +210,55 @@ robot_news_station/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_news_station.dir/build.make CMakeFiles/robot_news_station.dir/build
 .PHONY : robot_news_station/fast
 
-src/my_first_node.o: src/my_first_node.cpp.o
-.PHONY : src/my_first_node.o
+#=============================================================================
+# Target rules for targets named smartphone
+
+# Build rule for target.
+smartphone: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smartphone
+.PHONY : smartphone
+
+# fast build rule for target.
+smartphone/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smartphone.dir/build.make CMakeFiles/smartphone.dir/build
+.PHONY : smartphone/fast
+
+#=============================================================================
+# Target rules for targets named add_two_ints_server
+
+# Build rule for target.
+add_two_ints_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 add_two_ints_server
+.PHONY : add_two_ints_server
+
+# fast build rule for target.
+add_two_ints_server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_two_ints_server.dir/build.make CMakeFiles/add_two_ints_server.dir/build
+.PHONY : add_two_ints_server/fast
+
+src/add_two_ints_server.o: src/add_two_ints_server.cpp.o
+.PHONY : src/add_two_ints_server.o
 
 # target to build an object file
-src/my_first_node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o
-.PHONY : src/my_first_node.cpp.o
+src/add_two_ints_server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_two_ints_server.dir/build.make CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o
+.PHONY : src/add_two_ints_server.cpp.o
 
-src/my_first_node.i: src/my_first_node.cpp.i
-.PHONY : src/my_first_node.i
+src/add_two_ints_server.i: src/add_two_ints_server.cpp.i
+.PHONY : src/add_two_ints_server.i
 
 # target to preprocess a source file
-src/my_first_node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/src/my_first_node.cpp.i
-.PHONY : src/my_first_node.cpp.i
+src/add_two_ints_server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_two_ints_server.dir/build.make CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.i
+.PHONY : src/add_two_ints_server.cpp.i
 
-src/my_first_node.s: src/my_first_node.cpp.s
-.PHONY : src/my_first_node.s
+src/add_two_ints_server.s: src/add_two_ints_server.cpp.s
+.PHONY : src/add_two_ints_server.s
 
 # target to generate assembly for a file
-src/my_first_node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/src/my_first_node.cpp.s
-.PHONY : src/my_first_node.cpp.s
+src/add_two_ints_server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_two_ints_server.dir/build.make CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.s
+.PHONY : src/add_two_ints_server.cpp.s
 
 src/robot_news_station.o: src/robot_news_station.cpp.o
 .PHONY : src/robot_news_station.o
@@ -271,6 +284,30 @@ src/robot_news_station.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_news_station.dir/build.make CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.s
 .PHONY : src/robot_news_station.cpp.s
 
+src/smartphone.o: src/smartphone.cpp.o
+.PHONY : src/smartphone.o
+
+# target to build an object file
+src/smartphone.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smartphone.dir/build.make CMakeFiles/smartphone.dir/src/smartphone.cpp.o
+.PHONY : src/smartphone.cpp.o
+
+src/smartphone.i: src/smartphone.cpp.i
+.PHONY : src/smartphone.i
+
+# target to preprocess a source file
+src/smartphone.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smartphone.dir/build.make CMakeFiles/smartphone.dir/src/smartphone.cpp.i
+.PHONY : src/smartphone.cpp.i
+
+src/smartphone.s: src/smartphone.cpp.s
+.PHONY : src/smartphone.s
+
+# target to generate assembly for a file
+src/smartphone.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smartphone.dir/build.make CMakeFiles/smartphone.dir/src/smartphone.cpp.s
+.PHONY : src/smartphone.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -286,14 +323,18 @@ help:
 	@echo "... test"
 	@echo "... my_cpp_pkg_uninstall"
 	@echo "... uninstall"
-	@echo "... cpp_node"
+	@echo "... add_two_ints_server"
 	@echo "... robot_news_station"
-	@echo "... src/my_first_node.o"
-	@echo "... src/my_first_node.i"
-	@echo "... src/my_first_node.s"
+	@echo "... smartphone"
+	@echo "... src/add_two_ints_server.o"
+	@echo "... src/add_two_ints_server.i"
+	@echo "... src/add_two_ints_server.s"
 	@echo "... src/robot_news_station.o"
 	@echo "... src/robot_news_station.i"
 	@echo "... src/robot_news_station.s"
+	@echo "... src/smartphone.o"
+	@echo "... src/smartphone.i"
+	@echo "... src/smartphone.s"
 .PHONY : help
 
 

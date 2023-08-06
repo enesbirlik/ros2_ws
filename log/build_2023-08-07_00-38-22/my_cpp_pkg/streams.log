@@ -1,0 +1,12 @@
+[0.017s] Invoking command in '/home/enesb/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/enesb/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[0.048s] [ 12%] [32m[1mLinking CXX executable add_two_ints_server[0m
+[0.050s] [ 87%] Built target robot_news_station
+[0.050s] [ 87%] Built target smartphone
+[0.050s] [ 87%] Built target cpp_node
+[0.090s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.090s] (.text+0x1b): undefined reference to `main'
+[0.091s] collect2: error: ld returned 1 exit status
+[0.092s] gmake[2]: *** [CMakeFiles/add_two_ints_server.dir/build.make:175: add_two_ints_server] Error 1
+[0.093s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/add_two_ints_server.dir/all] Error 2
+[0.093s] gmake: *** [Makefile:146: all] Error 2
+[0.221s] Invoked command in '/home/enesb/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/enesb/ros2_ws/build/my_cpp_pkg -- -j12 -l12

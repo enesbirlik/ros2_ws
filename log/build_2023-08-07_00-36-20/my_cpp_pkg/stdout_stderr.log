@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target add_two_ints_server[0m
+[ 12%] [32m[1mLinking CXX executable add_two_ints_server[0m
+[ 87%] Built target smartphone
+[ 87%] Built target robot_news_station
+[ 87%] Built target cpp_node
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/add_two_ints_server.dir/build.make:175: add_two_ints_server] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/add_two_ints_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
