@@ -63,6 +63,7 @@ CMAKE_BINARY_DIR = /home/enesb/ros2_ws/build/my_cpp_pkg
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/cpp_node.dir/all
 all: CMakeFiles/robot_news_station.dir/all
 all: CMakeFiles/smartphone.dir/all
 all: CMakeFiles/add_two_ints_server.dir/all
@@ -75,6 +76,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/my_cpp_pkg_uninstall.dir/clean
+clean: CMakeFiles/cpp_node.dir/clean
 clean: CMakeFiles/robot_news_station.dir/clean
 clean: CMakeFiles/smartphone.dir/clean
 clean: CMakeFiles/add_two_ints_server.dir/clean
@@ -133,13 +135,39 @@ CMakeFiles/my_cpp_pkg_uninstall.dir/clean:
 .PHONY : CMakeFiles/my_cpp_pkg_uninstall.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/cpp_node.dir
+
+# All Build rule for target.
+CMakeFiles/cpp_node.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/enesb/ros2_ws/build/my_cpp_pkg/CMakeFiles --progress-num=3,4 "Built target cpp_node"
+.PHONY : CMakeFiles/cpp_node.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/cpp_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/enesb/ros2_ws/build/my_cpp_pkg/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cpp_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/enesb/ros2_ws/build/my_cpp_pkg/CMakeFiles 0
+.PHONY : CMakeFiles/cpp_node.dir/rule
+
+# Convenience name for target.
+cpp_node: CMakeFiles/cpp_node.dir/rule
+.PHONY : cpp_node
+
+# clean rule for target.
+CMakeFiles/cpp_node.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/clean
+.PHONY : CMakeFiles/cpp_node.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/robot_news_station.dir
 
 # All Build rule for target.
 CMakeFiles/robot_news_station.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_news_station.dir/build.make CMakeFiles/robot_news_station.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_news_station.dir/build.make CMakeFiles/robot_news_station.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/enesb/ros2_ws/build/my_cpp_pkg/CMakeFiles --progress-num=3,4 "Built target robot_news_station"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/enesb/ros2_ws/build/my_cpp_pkg/CMakeFiles --progress-num=5,6 "Built target robot_news_station"
 .PHONY : CMakeFiles/robot_news_station.dir/all
 
 # Build rule for subdir invocation for target.
@@ -165,7 +193,7 @@ CMakeFiles/robot_news_station.dir/clean:
 CMakeFiles/smartphone.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/smartphone.dir/build.make CMakeFiles/smartphone.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/smartphone.dir/build.make CMakeFiles/smartphone.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/enesb/ros2_ws/build/my_cpp_pkg/CMakeFiles --progress-num=5,6 "Built target smartphone"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/enesb/ros2_ws/build/my_cpp_pkg/CMakeFiles --progress-num=7,8 "Built target smartphone"
 .PHONY : CMakeFiles/smartphone.dir/all
 
 # Build rule for subdir invocation for target.

@@ -11,7 +11,7 @@ class NumberCounter(Node):
         self.subscriber_ = self.create_subscription(Int64, "number", self.callback_number, 10)
         self.get_logger().info("Number Counter has been started")
         self.counter_ = 0
-        self.publisher_ = self.create_publisher(Int64, "number_count", 10)  # Publisher oluştur
+        self.publisher_ = self.create_publisher(Int64, "number_count", 10)
 
     def callback_number(self, msg):
         self.counter_ = msg.data

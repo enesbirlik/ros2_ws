@@ -198,6 +198,19 @@ my_cpp_pkg_uninstall/fast:
 .PHONY : my_cpp_pkg_uninstall/fast
 
 #=============================================================================
+# Target rules for targets named cpp_node
+
+# Build rule for target.
+cpp_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cpp_node
+.PHONY : cpp_node
+
+# fast build rule for target.
+cpp_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/build
+.PHONY : cpp_node/fast
+
+#=============================================================================
 # Target rules for targets named robot_news_station
 
 # Build rule for target.
@@ -259,6 +272,30 @@ src/add_two_ints_server.s: src/add_two_ints_server.cpp.s
 src/add_two_ints_server.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_two_ints_server.dir/build.make CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.s
 .PHONY : src/add_two_ints_server.cpp.s
+
+src/my_first_node.o: src/my_first_node.cpp.o
+.PHONY : src/my_first_node.o
+
+# target to build an object file
+src/my_first_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o
+.PHONY : src/my_first_node.cpp.o
+
+src/my_first_node.i: src/my_first_node.cpp.i
+.PHONY : src/my_first_node.i
+
+# target to preprocess a source file
+src/my_first_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/src/my_first_node.cpp.i
+.PHONY : src/my_first_node.cpp.i
+
+src/my_first_node.s: src/my_first_node.cpp.s
+.PHONY : src/my_first_node.s
+
+# target to generate assembly for a file
+src/my_first_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/src/my_first_node.cpp.s
+.PHONY : src/my_first_node.cpp.s
 
 src/robot_news_station.o: src/robot_news_station.cpp.o
 .PHONY : src/robot_news_station.o
@@ -324,11 +361,15 @@ help:
 	@echo "... my_cpp_pkg_uninstall"
 	@echo "... uninstall"
 	@echo "... add_two_ints_server"
+	@echo "... cpp_node"
 	@echo "... robot_news_station"
 	@echo "... smartphone"
 	@echo "... src/add_two_ints_server.o"
 	@echo "... src/add_two_ints_server.i"
 	@echo "... src/add_two_ints_server.s"
+	@echo "... src/my_first_node.o"
+	@echo "... src/my_first_node.i"
+	@echo "... src/my_first_node.s"
 	@echo "... src/robot_news_station.o"
 	@echo "... src/robot_news_station.i"
 	@echo "... src/robot_news_station.s"
