@@ -1,0 +1,9 @@
+[0.024s] Invoking command in '/home/enesb/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/enesb/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[0.043s] [31mCMake Error at CMakeLists.txt:28:
+[0.043s]   Parse error.  Expected a command name, got right paren with text ")".
+[0.043s] 
+[0.044s] [0m
+[0.044s] -- Configuring incomplete, errors occurred!
+[0.044s] See also "/home/enesb/ros2_ws/build/my_cpp_pkg/CMakeFiles/CMakeOutput.log".
+[0.044s] gmake: *** [Makefile:390: cmake_check_build_system] Error 1
+[0.326s] Invoked command in '/home/enesb/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/enesb/ros2_ws/build/my_cpp_pkg -- -j12 -l12

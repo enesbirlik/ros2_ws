@@ -1,0 +1,9 @@
+[0.314s] Invoking command in '/home/enesb/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/enesb/ros2_ws/build/my_robot_interfaces -- -j12 -l12
+[0.330s] [31mCMake Error at CMakeLists.txt:16:
+[0.331s]   Parse error.  Expected a command name, got left paren with text "(".
+[0.331s] 
+[0.331s] [0m
+[0.331s] -- Configuring incomplete, errors occurred!
+[0.331s] See also "/home/enesb/ros2_ws/build/my_robot_interfaces/CMakeFiles/CMakeOutput.log".
+[0.332s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.333s] Invoked command in '/home/enesb/ros2_ws/build/my_robot_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/enesb/ros2_ws/build/my_robot_interfaces -- -j12 -l12
