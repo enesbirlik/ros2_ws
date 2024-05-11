@@ -1,0 +1,7 @@
+-- libhidapi: include dir at HIDAPI_INCLUDE_DIR-NOTFOUND
+-- libhidapi: libraries at 
+-- LibUSB Compilation test: TRUE
+-- libusb: include dir at /usr/include/libusb-1.0
+-- libusb: libraries at /usr/lib/x86_64-linux-gnu/libusb-1.0.so
+-- Configuring incomplete, errors occurred!
+See also "/home/enesb/ros2_ws/build/zed-open-capture/CMakeFiles/CMakeOutput.log".

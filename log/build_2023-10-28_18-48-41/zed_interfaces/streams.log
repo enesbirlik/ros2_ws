@@ -1,0 +1,23 @@
+[0.077s] Invoking command in '/home/enesb/ros2_ws/build/zed_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/enesb/ros2_ws/build/zed_interfaces -- -j12 -l12
+[0.165s] [  0%] Built target ament_cmake_python_symlink_zed_interfaces
+[0.175s] [ 12%] Built target zed_interfaces__rosidl_generator_c
+[0.196s] [ 12%] Built target zed_interfaces__cpp
+[0.243s] [ 24%] Built target zed_interfaces__rosidl_typesupport_fastrtps_c
+[0.285s] [ 37%] Built target zed_interfaces__rosidl_typesupport_c
+[0.286s] [ 49%] Built target zed_interfaces__rosidl_typesupport_introspection_c
+[0.289s] [ 60%] Built target zed_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.290s] [ 72%] Built target zed_interfaces__rosidl_typesupport_cpp
+[0.291s] [ 84%] Built target zed_interfaces__rosidl_typesupport_introspection_cpp
+[0.321s] [ 84%] Built target zed_interfaces
+[0.356s] [ 85%] Built target zed_interfaces__py
+[0.415s] [ 96%] Built target zed_interfaces__rosidl_generator_py
+[0.438s] [ 97%] Built target zed_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.446s] [ 99%] Built target zed_interfaces__rosidl_typesupport_c__pyext
+[0.447s] [100%] Built target zed_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.573s] running egg_info
+[0.574s] writing zed_interfaces.egg-info/PKG-INFO
+[0.574s] writing dependency_links to zed_interfaces.egg-info/dependency_links.txt
+[0.574s] writing top-level names to zed_interfaces.egg-info/top_level.txt
+[0.576s] reading manifest file 'zed_interfaces.egg-info/SOURCES.txt'
+[0.577s] writing manifest file 'zed_interfaces.egg-info/SOURCES.txt'
+[0.607s] [100%] Built target ament_cmake_python_build_zed_interfaces_egg

@@ -1,2 +1,1 @@
-int64 led_number
-int64 state
+/home/enesb/ros2_ws/build/my_robot_interfaces/rosidl_cmake/srv/SetLed_Request.msg

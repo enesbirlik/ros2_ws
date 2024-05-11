@@ -1,0 +1,24 @@
+[0.038s] Invoking command in '/home/enesb/ros2_ws/build/zed_tutorial_depth': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/enesb/ros2_ws/build/zed_tutorial_depth -- -j12 -l12
+[0.095s] [35m[1mConsolidate compiler generated dependencies of target zed_tutorial_depth[0m
+[0.129s] [100%] Built target zed_tutorial_depth
+[0.172s] Invoked command in '/home/enesb/ros2_ws/build/zed_tutorial_depth' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/enesb/ros2_ws/build/zed_tutorial_depth -- -j12 -l12
+[0.230s] Invoking command in '/home/enesb/ros2_ws/build/zed_tutorial_depth': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/enesb/ros2_ws/build/zed_tutorial_depth
+[0.240s] -- Install configuration: "Release"
+[0.241s] -- Execute custom install script
+[0.241s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_depth/lib/zed_tutorial_depth/zed_tutorial_depth
+[0.242s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_depth/share/ament_index/resource_index/package_run_dependencies/zed_tutorial_depth
+[0.243s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_depth/share/ament_index/resource_index/parent_prefix_path/zed_tutorial_depth
+[0.243s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/environment/ament_prefix_path.sh
+[0.243s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/environment/ament_prefix_path.dsv
+[0.244s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/environment/path.sh
+[0.244s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/environment/path.dsv
+[0.244s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/local_setup.bash
+[0.244s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/local_setup.sh
+[0.245s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/local_setup.zsh
+[0.245s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/local_setup.dsv
+[0.245s] -- Symlinking: /home/enesb/ros2_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/package.dsv
+[0.259s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_depth/share/ament_index/resource_index/packages/zed_tutorial_depth
+[0.260s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/cmake/zed_tutorial_depthConfig.cmake
+[0.260s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/cmake/zed_tutorial_depthConfig-version.cmake
+[0.260s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/package.xml
+[0.296s] Invoked command in '/home/enesb/ros2_ws/build/zed_tutorial_depth' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/enesb/ros2_ws/build/zed_tutorial_depth

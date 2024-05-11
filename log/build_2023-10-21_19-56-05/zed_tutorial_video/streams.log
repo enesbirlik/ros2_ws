@@ -1,0 +1,40 @@
+[0.032s] Invoking command in '/home/enesb/ros2_ws/build/zed_tutorial_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/enesb/ros2_ws/src/zed-ros2-examples/tutorials/zed_video_tutorial -DCMAKE_INSTALL_PREFIX=/home/enesb/ros2_ws/install/zed_tutorial_video
+[0.043s] -- Found ament_cmake_auto: 1.3.5 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.240s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.373s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.377s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.387s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.406s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.434s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.503s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.505s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.641s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.946s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.953s] -- Configuring done
+[0.961s] -- Generating done
+[0.963s] -- Build files have been written to: /home/enesb/ros2_ws/build/zed_tutorial_video
+[0.971s] Invoked command in '/home/enesb/ros2_ws/build/zed_tutorial_video' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/enesb/ros2_ws/src/zed-ros2-examples/tutorials/zed_video_tutorial -DCMAKE_INSTALL_PREFIX=/home/enesb/ros2_ws/install/zed_tutorial_video
+[0.973s] Invoking command in '/home/enesb/ros2_ws/build/zed_tutorial_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/enesb/ros2_ws/build/zed_tutorial_video -- -j12 -l12
+[1.014s] [35m[1mConsolidate compiler generated dependencies of target zed_tutorial_video[0m
+[1.039s] [100%] Built target zed_tutorial_video
+[1.048s] Invoked command in '/home/enesb/ros2_ws/build/zed_tutorial_video' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/enesb/ros2_ws/build/zed_tutorial_video -- -j12 -l12
+[1.072s] Invoking command in '/home/enesb/ros2_ws/build/zed_tutorial_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/enesb/ros2_ws/build/zed_tutorial_video
+[1.079s] -- Install configuration: "Release"
+[1.079s] -- Execute custom install script
+[1.080s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_video/lib/zed_tutorial_video/zed_tutorial_video
+[1.080s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_video/share/ament_index/resource_index/package_run_dependencies/zed_tutorial_video
+[1.080s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_video/share/ament_index/resource_index/parent_prefix_path/zed_tutorial_video
+[1.081s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/environment/ament_prefix_path.sh
+[1.081s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/environment/ament_prefix_path.dsv
+[1.081s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/environment/path.sh
+[1.081s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/environment/path.dsv
+[1.081s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.bash
+[1.081s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.sh
+[1.081s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.zsh
+[1.082s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.dsv
+[1.082s] -- Symlinking: /home/enesb/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/package.dsv
+[1.090s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_video/share/ament_index/resource_index/packages/zed_tutorial_video
+[1.090s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/cmake/zed_tutorial_videoConfig.cmake
+[1.091s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/cmake/zed_tutorial_videoConfig-version.cmake
+[1.091s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/package.xml
+[1.094s] Invoked command in '/home/enesb/ros2_ws/build/zed_tutorial_video' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/enesb/ros2_ws/build/zed_tutorial_video

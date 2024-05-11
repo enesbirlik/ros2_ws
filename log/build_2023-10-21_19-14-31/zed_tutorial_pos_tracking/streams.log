@@ -1,0 +1,51 @@
+[0.043s] Invoking command in '/home/enesb/ros2_ws/build/zed_tutorial_pos_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/enesb/ros2_ws/src/zed-ros2-examples/tutorials/zed_pose_tutorial -DCMAKE_INSTALL_PREFIX=/home/enesb/ros2_ws/install/zed_tutorial_pos_tracking
+[0.059s] -- Found ament_cmake_auto: 1.3.5 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.283s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.464s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.470s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.482s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.505s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.538s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.650s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.654s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.855s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.949s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.966s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.967s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.968s] -- Configured cppcheck include dirs: 
+[1.968s] -- Configured cppcheck exclude dirs and/or files: 
+[1.969s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.969s] -- Configured cpplint exclude dirs and/or files: 
+[1.970s] -- Added test 'lint_cmake' to check CMake code style
+[1.971s] -- Added test 'uncrustify' to check C / C++ code style
+[1.971s] -- Configured uncrustify additional arguments: 
+[1.972s] -- Added test 'xmllint' to check XML markup files
+[1.972s] -- Added test 'clang_format' to check C / C++ code style
+[1.973s] -- Configuring done
+[1.987s] -- Generating done
+[1.990s] -- Build files have been written to: /home/enesb/ros2_ws/build/zed_tutorial_pos_tracking
+[1.998s] Invoked command in '/home/enesb/ros2_ws/build/zed_tutorial_pos_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/enesb/ros2_ws/src/zed-ros2-examples/tutorials/zed_pose_tutorial -DCMAKE_INSTALL_PREFIX=/home/enesb/ros2_ws/install/zed_tutorial_pos_tracking
+[2.000s] Invoking command in '/home/enesb/ros2_ws/build/zed_tutorial_pos_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/enesb/ros2_ws/build/zed_tutorial_pos_tracking -- -j12 -l12
+[2.049s] [35m[1mConsolidate compiler generated dependencies of target zed_tutorial_pos_tracking[0m
+[2.084s] [100%] Built target zed_tutorial_pos_tracking
+[2.101s] Invoked command in '/home/enesb/ros2_ws/build/zed_tutorial_pos_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/enesb/ros2_ws/build/zed_tutorial_pos_tracking -- -j12 -l12
+[2.131s] Invoking command in '/home/enesb/ros2_ws/build/zed_tutorial_pos_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/enesb/ros2_ws/build/zed_tutorial_pos_tracking
+[2.139s] -- Install configuration: "Release"
+[2.139s] -- Execute custom install script
+[2.139s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_pos_tracking/lib/zed_tutorial_pos_tracking/zed_tutorial_pos_tracking
+[2.140s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_pos_tracking/share/ament_index/resource_index/package_run_dependencies/zed_tutorial_pos_tracking
+[2.140s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_pos_tracking/share/ament_index/resource_index/parent_prefix_path/zed_tutorial_pos_tracking
+[2.140s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/ament_prefix_path.sh
+[2.140s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/ament_prefix_path.dsv
+[2.141s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/path.sh
+[2.141s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/path.dsv
+[2.141s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.bash
+[2.141s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.sh
+[2.141s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.zsh
+[2.142s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.dsv
+[2.142s] -- Symlinking: /home/enesb/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/package.dsv
+[2.151s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_pos_tracking/share/ament_index/resource_index/packages/zed_tutorial_pos_tracking
+[2.151s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/cmake/zed_tutorial_pos_trackingConfig.cmake
+[2.152s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/cmake/zed_tutorial_pos_trackingConfig-version.cmake
+[2.152s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/package.xml
+[2.158s] Invoked command in '/home/enesb/ros2_ws/build/zed_tutorial_pos_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/enesb/ros2_ws/build/zed_tutorial_pos_tracking

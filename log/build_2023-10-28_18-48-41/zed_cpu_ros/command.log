@@ -1,0 +1,2 @@
+Invoking command in '/home/enesb/ros2_ws/build/zed_cpu_ros': /usr/bin/cmake /home/enesb/ros2_ws/src/zed_cpu_ros -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/enesb/ros2_ws/install/zed_cpu_ros
+Invoked command in '/home/enesb/ros2_ws/build/zed_cpu_ros' returned '1': /usr/bin/cmake /home/enesb/ros2_ws/src/zed_cpu_ros -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/enesb/ros2_ws/install/zed_cpu_ros

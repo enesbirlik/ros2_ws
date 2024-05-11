@@ -1,0 +1,2 @@
+Invoking command in '/home/enesb/ros2_ws/build/zed-open-capture': /usr/bin/cmake /home/enesb/ros2_ws/src/zed-open-capture -DCMAKE_INSTALL_PREFIX=/home/enesb/ros2_ws/install/zed-open-capture
+Invoked command in '/home/enesb/ros2_ws/build/zed-open-capture' returned '1': /usr/bin/cmake /home/enesb/ros2_ws/src/zed-open-capture -DCMAKE_INSTALL_PREFIX=/home/enesb/ros2_ws/install/zed-open-capture

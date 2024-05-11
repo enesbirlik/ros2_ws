@@ -1,0 +1,33 @@
+[35m[1mConsolidate compiler generated dependencies of target zed_camera_component[0m
+[100%] Built target zed_camera_component
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/enesb/ros2_ws/install/zed_components/lib/libzed_camera_component.so
+-- Symlinking: /home/enesb/ros2_ws/install/zed_components/include/zed_components//cost_traversability.hpp
+-- Symlinking: /home/enesb/ros2_ws/install/zed_components/include/zed_components//sl_types.hpp
+-- Symlinking: /home/enesb/ros2_ws/install/zed_components/include/zed_components//zed_camera_component.hpp
+-- Symlinking: /home/enesb/ros2_ws/install/zed_components/include/zed_components//sl_logging.hpp
+-- Symlinking: /home/enesb/ros2_ws/install/zed_components/include/zed_components//sl_tools.hpp
+-- Symlinking: /home/enesb/ros2_ws/install/zed_components/include/zed_components//sl_win_avg.hpp
+-- Symlinking: /home/enesb/ros2_ws/install/zed_components/include/zed_components//visibility_control.hpp
+-- Symlinking: /home/enesb/ros2_ws/install/zed_components/share/zed_components/environment/library_path.sh
+-- Symlinking: /home/enesb/ros2_ws/install/zed_components/share/zed_components/environment/library_path.dsv
+-- Symlinking: /home/enesb/ros2_ws/install/zed_components/share/ament_index/resource_index/package_run_dependencies/zed_components
+-- Symlinking: /home/enesb/ros2_ws/install/zed_components/share/ament_index/resource_index/parent_prefix_path/zed_components
+-- Symlinking: /home/enesb/ros2_ws/install/zed_components/share/zed_components/environment/ament_prefix_path.sh
+-- Symlinking: /home/enesb/ros2_ws/install/zed_components/share/zed_components/environment/ament_prefix_path.dsv
+-- Symlinking: /home/enesb/ros2_ws/install/zed_components/share/zed_components/environment/path.sh
+-- Symlinking: /home/enesb/ros2_ws/install/zed_components/share/zed_components/environment/path.dsv
+-- Symlinking: /home/enesb/ros2_ws/install/zed_components/share/zed_components/local_setup.bash
+-- Symlinking: /home/enesb/ros2_ws/install/zed_components/share/zed_components/local_setup.sh
+-- Symlinking: /home/enesb/ros2_ws/install/zed_components/share/zed_components/local_setup.zsh
+-- Symlinking: /home/enesb/ros2_ws/install/zed_components/share/zed_components/local_setup.dsv
+-- Symlinking: /home/enesb/ros2_ws/install/zed_components/share/zed_components/package.dsv
+-- Symlinking: /home/enesb/ros2_ws/install/zed_components/share/ament_index/resource_index/packages/zed_components
+-- Symlinking: /home/enesb/ros2_ws/install/zed_components/share/ament_index/resource_index/rclcpp_components/zed_components
+-- Symlinking: /home/enesb/ros2_ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/enesb/ros2_ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/enesb/ros2_ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/enesb/ros2_ws/install/zed_components/share/zed_components/cmake/zed_componentsConfig.cmake
+-- Symlinking: /home/enesb/ros2_ws/install/zed_components/share/zed_components/cmake/zed_componentsConfig-version.cmake
+-- Symlinking: /home/enesb/ros2_ws/install/zed_components/share/zed_components/package.xml

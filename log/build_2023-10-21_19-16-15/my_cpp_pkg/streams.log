@@ -1,0 +1,56 @@
+[0.053s] Invoking command in '/home/enesb/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/enesb/ros2_ws/src/my_cpp_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/enesb/ros2_ws/install/my_cpp_pkg
+[0.067s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.239s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.246s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.285s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.289s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.299s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.319s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.348s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.450s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.450s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.632s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.872s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.251s] -- Configuring done
+[1.280s] -- Generating done
+[1.283s] -- Build files have been written to: /home/enesb/ros2_ws/build/my_cpp_pkg
+[1.294s] Invoked command in '/home/enesb/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/enesb/ros2_ws/src/my_cpp_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/enesb/ros2_ws/install/my_cpp_pkg
+[1.300s] Invoking command in '/home/enesb/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/enesb/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[1.361s] [35m[1mConsolidate compiler generated dependencies of target smartphone[0m
+[1.361s] [35m[1mConsolidate compiler generated dependencies of target robot_news_station[0m
+[1.361s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_server[0m
+[1.362s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[1.362s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client_no_oop[0m
+[1.366s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client[0m
+[1.393s] [ 16%] Built target smartphone
+[1.393s] [ 33%] Built target add_two_ints_server
+[1.394s] [ 50%] Built target cpp_node
+[1.405s] [ 83%] Built target robot_news_station
+[1.405s] [ 83%] Built target add_two_ints_client
+[1.406s] [100%] Built target add_two_ints_client_no_oop
+[1.425s] Invoked command in '/home/enesb/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/enesb/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[1.493s] Invoking command in '/home/enesb/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/enesb/ros2_ws/build/my_cpp_pkg
+[1.506s] -- Install configuration: "Release"
+[1.506s] -- Execute custom install script
+[1.507s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[1.507s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[1.507s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[1.508s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[1.508s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+[1.508s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+[1.508s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[1.509s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[1.509s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[1.509s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[1.509s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[1.510s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[1.510s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[1.510s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[1.510s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[1.511s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[1.511s] -- Symlinking: /home/enesb/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[1.524s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[1.524s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[1.524s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[1.525s] -- Up-to-date symlink: /home/enesb/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[1.531s] Invoked command in '/home/enesb/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/enesb/ros2_ws/build/my_cpp_pkg

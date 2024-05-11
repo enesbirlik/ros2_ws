@@ -1,2 +1,1 @@
-from my_robot_interfaces.srv._compute_rectangle_area import ComputeRectangleArea  # noqa: F401
-from my_robot_interfaces.srv._set_led import SetLed  # noqa: F401
+/home/enesb/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/srv/__init__.py

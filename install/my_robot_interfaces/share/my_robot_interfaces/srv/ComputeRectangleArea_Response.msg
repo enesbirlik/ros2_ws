@@ -1,2 +1,1 @@
-
-float64 area
+/home/enesb/ros2_ws/build/my_robot_interfaces/rosidl_cmake/srv/ComputeRectangleArea_Response.msg

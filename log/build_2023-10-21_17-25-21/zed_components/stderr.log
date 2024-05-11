@@ -1,0 +1,9 @@
+In file included from [01m[K/home/enesb/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include/zed_camera_component.hpp:19[m[K,
+                 from [01m[K/home/enesb/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component.cpp:21[m[K:
+[01m[K/usr/local/zed/include/sl/Fusion.hpp:68:64:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: ~ FUSION SDK is distributed in Early Access ~[m[K’
+   68 | #pragma message("~ FUSION SDK is distributed in Early Access ~"[01;36m[K)[m[K
+      |                                                                [01;36m[K^[m[K
+gmake[2]: *** Deleting file 'CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component.cpp.o'
+gmake[2]: *** [CMakeFiles/zed_camera_component.dir/build.make:104: CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:164: CMakeFiles/zed_camera_component.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

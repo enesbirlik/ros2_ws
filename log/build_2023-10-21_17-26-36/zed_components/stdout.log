@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target zed_camera_component[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libzed_camera_component.so[0m
+[100%] Built target zed_camera_component

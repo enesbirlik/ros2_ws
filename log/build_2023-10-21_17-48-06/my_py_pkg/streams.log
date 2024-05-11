@@ -1,0 +1,29 @@
+[0.775s] Invoking command in '/home/enesb/ros2_ws/build/my_py_pkg': CMAKE_PREFIX_PATH=/home/enesb/ros2_ws/install/my_robot_interfaces:/home/enesb/ros2_ws/install/zed_tutorial_video:/home/enesb/ros2_ws/install/zed_tutorial_pos_tracking:/home/enesb/ros2_ws/install/zed_tutorial_depth:/home/enesb/ros2_ws/install/zed_topic_benchmark:/home/enesb/ros2_ws/install/zed_topic_benchmark_component:/home/enesb/ros2_ws/install/zed_topic_benchmark_interfaces:/home/enesb/ros2_ws/install/zed_interfaces:/home/enesb/ros2_ws/install/my_robot_bringup:/home/enesb/ros2_ws/install/my_robot_description:/home/enesb/ros2_ws/install/my_cpp_pkg:/home/enesb/agv_ws/install/agv_test:/home/enesb/microros_ws/install/micro_ros_setup:/home/enesb/microros_ws/install/micro_ros_agent:/home/enesb/microros_ws/install/micro_ros_msgs LD_LIBRARY_PATH=/home/enesb/ros2_ws/install/my_robot_interfaces/lib:/home/enesb/ros2_ws/install/zed_topic_benchmark_component/lib:/home/enesb/ros2_ws/install/zed_topic_benchmark_interfaces/lib:/home/enesb/ros2_ws/install/zed_interfaces/lib:/home/enesb/microros_ws/install/micro_ros_agent/lib:/home/enesb/microros_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/enesb/ros2_ws/build/my_py_pkg/prefix_override:/home/enesb/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/enesb/ros2_ws/build/my_py_pkg/build --no-deps install_data
+[1.094s] running develop
+[1.286s] running egg_info
+[1.287s] writing my_py_pkg.egg-info/PKG-INFO
+[1.287s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[1.287s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[1.287s] writing requirements to my_py_pkg.egg-info/requires.txt
+[1.287s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[1.289s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.290s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.345s] running build_ext
+[1.346s] Creating /home/enesb/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[1.346s] Installing add_two_ints_client script to /home/enesb/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.347s] Installing add_two_ints_client_no_oop script to /home/enesb/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.347s] Installing add_two_ints_server script to /home/enesb/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.347s] Installing battery script to /home/enesb/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.347s] Installing hw_status_publisher script to /home/enesb/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.347s] Installing led_panel script to /home/enesb/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.347s] Installing micro_ros_pc_node script to /home/enesb/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.348s] Installing number_counter script to /home/enesb/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.348s] Installing number_publisher script to /home/enesb/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.348s] Installing number_publisher1 script to /home/enesb/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.348s] Installing py_node script to /home/enesb/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.348s] Installing robot_news_station script to /home/enesb/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.348s] Installing smartphone script to /home/enesb/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.349s] 
+[1.349s] Installed /home/enesb/ros2_ws/build/my_py_pkg
+[1.349s] running install_data
+[1.392s] Invoked command in '/home/enesb/ros2_ws/build/my_py_pkg' returned '0': CMAKE_PREFIX_PATH=/home/enesb/ros2_ws/install/my_robot_interfaces:/home/enesb/ros2_ws/install/zed_tutorial_video:/home/enesb/ros2_ws/install/zed_tutorial_pos_tracking:/home/enesb/ros2_ws/install/zed_tutorial_depth:/home/enesb/ros2_ws/install/zed_topic_benchmark:/home/enesb/ros2_ws/install/zed_topic_benchmark_component:/home/enesb/ros2_ws/install/zed_topic_benchmark_interfaces:/home/enesb/ros2_ws/install/zed_interfaces:/home/enesb/ros2_ws/install/my_robot_bringup:/home/enesb/ros2_ws/install/my_robot_description:/home/enesb/ros2_ws/install/my_cpp_pkg:/home/enesb/agv_ws/install/agv_test:/home/enesb/microros_ws/install/micro_ros_setup:/home/enesb/microros_ws/install/micro_ros_agent:/home/enesb/microros_ws/install/micro_ros_msgs LD_LIBRARY_PATH=/home/enesb/ros2_ws/install/my_robot_interfaces/lib:/home/enesb/ros2_ws/install/zed_topic_benchmark_component/lib:/home/enesb/ros2_ws/install/zed_topic_benchmark_interfaces/lib:/home/enesb/ros2_ws/install/zed_interfaces/lib:/home/enesb/microros_ws/install/micro_ros_agent/lib:/home/enesb/microros_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/enesb/ros2_ws/build/my_py_pkg/prefix_override:/home/enesb/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/enesb/ros2_ws/build/my_py_pkg/build --no-deps install_data

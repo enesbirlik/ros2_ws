@@ -9,7 +9,9 @@
 /home/enesb/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_counter.py
 /home/enesb/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/micro_ros_pc_node.py
 /home/enesb/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/battery.py
+/home/enesb/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/qr_read_test.py
 /home/enesb/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client_no_oop.py
+/home/enesb/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_publisher.py
 /home/enesb/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/smartphone.py
 /home/enesb/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/hw_status_publisher.py
 /home/enesb/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__pycache__/robot_news_station.cpython-310.pyc
@@ -23,7 +25,9 @@
 /home/enesb/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__pycache__/number_counter.cpython-310.pyc
 /home/enesb/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__pycache__/micro_ros_pc_node.cpython-310.pyc
 /home/enesb/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__pycache__/battery.cpython-310.pyc
+/home/enesb/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__pycache__/qr_read_test.cpython-310.pyc
 /home/enesb/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__pycache__/add_two_ints_client_no_oop.cpython-310.pyc
+/home/enesb/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__pycache__/number_publisher.cpython-310.pyc
 /home/enesb/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__pycache__/smartphone.cpython-310.pyc
 /home/enesb/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__pycache__/hw_status_publisher.cpython-310.pyc
 /home/enesb/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages/my_py_pkg
@@ -44,6 +48,8 @@
 /home/enesb/ros2_ws/install/my_py_pkg/lib/my_py_pkg/micro_ros_pc_node
 /home/enesb/ros2_ws/install/my_py_pkg/lib/my_py_pkg/number_counter
 /home/enesb/ros2_ws/install/my_py_pkg/lib/my_py_pkg/number_publisher
+/home/enesb/ros2_ws/install/my_py_pkg/lib/my_py_pkg/number_publisher1
 /home/enesb/ros2_ws/install/my_py_pkg/lib/my_py_pkg/py_node
+/home/enesb/ros2_ws/install/my_py_pkg/lib/my_py_pkg/qr_read_test
 /home/enesb/ros2_ws/install/my_py_pkg/lib/my_py_pkg/robot_news_station
 /home/enesb/ros2_ws/install/my_py_pkg/lib/my_py_pkg/smartphone

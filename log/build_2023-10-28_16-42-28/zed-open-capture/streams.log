@@ -1,0 +1,23 @@
+[0.013s] Invoking command in '/home/enesb/ros2_ws/build/zed-open-capture': /usr/bin/cmake /home/enesb/ros2_ws/src/zed-open-capture -DCMAKE_INSTALL_PREFIX=/home/enesb/ros2_ws/install/zed-open-capture
+[0.020s] [0m* Release mode[0m
+[0.020s] [0m* Release mode[0m
+[0.020s] [0mProcessor: x86_64[0m
+[0.021s] [0m* Sensors module available[0m
+[0.039s] [31mCMake Error at cmake/FindHIDAPI.cmake:205 (set_target_properties):
+[0.040s]   set_target_properties called with incorrect number of arguments.
+[0.040s] Call Stack (most recent call first):
+[0.040s]   CMakeLists.txt:109 (find_package)
+[0.040s] 
+[0.040s] [0m
+[0.040s] [0m* Video module available[0m
+[0.040s] -- libhidapi: include dir at HIDAPI_INCLUDE_DIR-NOTFOUND
+[0.040s] -- libhidapi: libraries at 
+[0.104s] -- LibUSB Compilation test: TRUE
+[0.104s] -- libusb: include dir at /usr/include/libusb-1.0
+[0.104s] -- libusb: libraries at /usr/lib/x86_64-linux-gnu/libusb-1.0.so
+[0.104s] [0m* Video example available[0m
+[0.112s] [0m* Sensors example available[0m
+[0.112s] [0m* Video/Sensors sync example available[0m
+[0.112s] -- Configuring incomplete, errors occurred!
+[0.112s] See also "/home/enesb/ros2_ws/build/zed-open-capture/CMakeFiles/CMakeOutput.log".
+[0.115s] Invoked command in '/home/enesb/ros2_ws/build/zed-open-capture' returned '1': /usr/bin/cmake /home/enesb/ros2_ws/src/zed-open-capture -DCMAKE_INSTALL_PREFIX=/home/enesb/ros2_ws/install/zed-open-capture

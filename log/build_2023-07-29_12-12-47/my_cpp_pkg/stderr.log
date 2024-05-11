@@ -1,5 +1,0 @@
-[31mCMake Error at CMakeLists.txt:13 (ament_trget_dependencies):
-  Unknown CMake command "ament_trget_dependencies".
-
-[0m
-gmake: *** [Makefile:226: cmake_check_build_system] Error 1

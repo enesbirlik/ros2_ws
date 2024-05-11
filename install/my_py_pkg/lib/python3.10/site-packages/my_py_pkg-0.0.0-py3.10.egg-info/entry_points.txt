@@ -8,7 +8,9 @@ led_panel = my_py_pkg.led_panel:main
 micro_ros_pc_node = my_py_pkg.micro_ros_pc_node:main
 number_counter = my_py_pkg.number_counter:main
 number_publisher = my_py_pkg.number_generator:main
+number_publisher1 = my_py_pkg.number_publisher:main
 py_node = my_py_pkg.my_first_node:main
+qr_read_test = my_py_pkg.qr_read_test:main
 robot_news_station = my_py_pkg.robot_news_station:main
 smartphone = my_py_pkg.smartphone:main
 

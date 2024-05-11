@@ -1,0 +1,52 @@
+[0.034s] Invoking command in '/home/enesb/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/enesb/ros2_ws/src/my_robot_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/enesb/ros2_ws/install/my_robot_description
+[0.083s] -- The C compiler identification is GNU 11.4.0
+[0.146s] -- The CXX compiler identification is GNU 11.4.0
+[0.154s] -- Detecting C compiler ABI info
+[0.232s] -- Detecting C compiler ABI info - done
+[0.245s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.245s] -- Detecting C compile features
+[0.246s] -- Detecting C compile features - done
+[0.250s] -- Detecting CXX compiler ABI info
+[0.340s] -- Detecting CXX compiler ABI info - done
+[0.352s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.352s] -- Detecting CXX compile features
+[0.353s] -- Detecting CXX compile features - done
+[0.355s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.537s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.629s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.751s] -- Configuring done
+[0.754s] -- Generating done
+[0.754s] -- Build files have been written to: /home/enesb/ros2_ws/build/my_robot_description
+[0.758s] Invoked command in '/home/enesb/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/enesb/ros2_ws/src/my_robot_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/enesb/ros2_ws/install/my_robot_description
+[0.759s] Invoking command in '/home/enesb/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/enesb/ros2_ws/build/my_robot_description -- -j12 -l12
+[0.792s] Invoked command in '/home/enesb/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/enesb/ros2_ws/build/my_robot_description -- -j12 -l12
+[0.824s] Invoking command in '/home/enesb/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/enesb/ros2_ws/build/my_robot_description
+[0.830s] -- Install configuration: "Release"
+[0.830s] -- Execute custom install script
+[0.831s] -- Symlinking: /home/enesb/ros2_ws/install/my_robot_description/share/my_robot_description//urdf/camera.xacro
+[0.838s] -- Symlinking: /home/enesb/ros2_ws/install/my_robot_description/share/my_robot_description//urdf/common_properties.xacro
+[0.846s] -- Symlinking: /home/enesb/ros2_ws/install/my_robot_description/share/my_robot_description//urdf/mobile_base.xacro
+[0.854s] -- Symlinking: /home/enesb/ros2_ws/install/my_robot_description/share/my_robot_description//urdf/mobile_base_gazebo.xacro
+[0.862s] -- Symlinking: /home/enesb/ros2_ws/install/my_robot_description/share/my_robot_description//urdf/my_robot.urdf.xacro
+[0.870s] -- Symlinking: /home/enesb/ros2_ws/install/my_robot_description/share/my_robot_description//urdf/ros2_control.xacro
+[0.878s] -- Symlinking: /home/enesb/ros2_ws/install/my_robot_description/share/my_robot_description//launch/display.launch.py
+[0.885s] -- Symlinking: /home/enesb/ros2_ws/install/my_robot_description/share/my_robot_description//launch/display.launch.xml
+[0.892s] -- Symlinking: /home/enesb/ros2_ws/install/my_robot_description/share/my_robot_description//rviz/urdf_config.rviz
+[0.900s] -- Symlinking: /home/enesb/ros2_ws/install/my_robot_description/share/my_robot_description//config/gazebo_params.yaml
+[0.909s] -- Symlinking: /home/enesb/ros2_ws/install/my_robot_description/share/my_robot_description//config/my_controllers.yaml
+[0.918s] -- Symlinking: /home/enesb/ros2_ws/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[0.926s] -- Symlinking: /home/enesb/ros2_ws/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[0.934s] -- Symlinking: /home/enesb/ros2_ws/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[0.943s] -- Symlinking: /home/enesb/ros2_ws/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[0.952s] -- Symlinking: /home/enesb/ros2_ws/install/my_robot_description/share/my_robot_description/environment/path.sh
+[0.961s] -- Symlinking: /home/enesb/ros2_ws/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[0.969s] -- Symlinking: /home/enesb/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.bash
+[0.978s] -- Symlinking: /home/enesb/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.sh
+[0.985s] -- Symlinking: /home/enesb/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[0.994s] -- Symlinking: /home/enesb/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[1.003s] -- Symlinking: /home/enesb/ros2_ws/install/my_robot_description/share/my_robot_description/package.dsv
+[1.011s] -- Symlinking: /home/enesb/ros2_ws/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[1.020s] -- Symlinking: /home/enesb/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[1.028s] -- Symlinking: /home/enesb/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[1.035s] -- Symlinking: /home/enesb/ros2_ws/install/my_robot_description/share/my_robot_description/package.xml
+[1.045s] Invoked command in '/home/enesb/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enesb/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/enesb/ros2_ws/build/my_robot_description

@@ -1,0 +1,41 @@
+[0.049s] Invoking command in '/home/enesb/ros2_ws/build/zed_cpu_ros': /usr/bin/cmake /home/enesb/ros2_ws/src/zed_cpu_ros -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/enesb/ros2_ws/install/zed_cpu_ros
+[0.064s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.064s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.064s]   CMake.
+[0.064s] 
+[0.064s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.064s]   CMake that the project does not need compatibility with older versions.
+[0.064s] 
+[0.064s] [0m
+[0.169s] -- The C compiler identification is GNU 11.4.0
+[0.277s] -- The CXX compiler identification is GNU 11.4.0
+[0.295s] -- Detecting C compiler ABI info
+[0.394s] -- Detecting C compiler ABI info - done
+[0.404s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.404s] -- Detecting C compile features
+[0.405s] -- Detecting C compile features - done
+[0.409s] -- Detecting CXX compiler ABI info
+[0.488s] -- Detecting CXX compiler ABI info - done
+[0.504s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.504s] -- Detecting CXX compile features
+[0.505s] -- Detecting CXX compile features - done
+[0.523s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.523s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.523s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.523s]   CMake did not find one.
+[0.523s] 
+[0.523s]   Could not find a package configuration file provided by "catkin" with any
+[0.523s]   of the following names:
+[0.523s] 
+[0.524s]     catkinConfig.cmake
+[0.524s]     catkin-config.cmake
+[0.524s] 
+[0.524s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.524s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.524s]   provides a separate development package or SDK, be sure it has been
+[0.524s]   installed.
+[0.524s] 
+[0.524s] [0m
+[0.524s] -- Configuring incomplete, errors occurred!
+[0.524s] See also "/home/enesb/ros2_ws/build/zed_cpu_ros/CMakeFiles/CMakeOutput.log".
+[0.528s] Invoked command in '/home/enesb/ros2_ws/build/zed_cpu_ros' returned '1': /usr/bin/cmake /home/enesb/ros2_ws/src/zed_cpu_ros -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/enesb/ros2_ws/install/zed_cpu_ros

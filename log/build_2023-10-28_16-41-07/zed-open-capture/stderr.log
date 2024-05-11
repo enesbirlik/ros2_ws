@@ -1,0 +1,14 @@
+[0m* Release mode[0m
+[0m* Release mode[0m
+[0mProcessor: x86_64[0m
+[0m* Sensors module available[0m
+[31mCMake Error at cmake/FindHIDAPI.cmake:205 (set_target_properties):
+  set_target_properties called with incorrect number of arguments.
+Call Stack (most recent call first):
+  CMakeLists.txt:109 (find_package)
+
+[0m
+[0m* Video module available[0m
+[0m* Video example available[0m
+[0m* Sensors example available[0m
+[0m* Video/Sensors sync example available[0m

@@ -1,0 +1,7 @@
+[01m[K/home/enesb/ros2_ws/src/zed-ros2-examples/rviz-plugin-zed-od/src/plugin/src/zed_od_display.cpp:[m[K In member function ‘[01m[Kvoid rviz_plugin_zed_od::displays::ZedOdDisplay::createOrUpdateObject(zed_interfaces::msg::Object&)[m[K’:
+[01m[K/home/enesb/ros2_ws/src/zed-ros2-examples/rviz-plugin-zed-od/src/plugin/src/zed_od_display.cpp:129:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Object = struct zed_interfaces::msg::Object_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct zed_interfaces::msg::Object_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kinstance_id[m[K’
+  129 |   int16_t id = obj.[01;31m[Kinstance_id[m[K;
+      |                    [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/rviz_plugin_zed_od.dir/build.make:90: CMakeFiles/rviz_plugin_zed_od.dir/src/plugin/src/zed_od_display.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/rviz_plugin_zed_od.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
